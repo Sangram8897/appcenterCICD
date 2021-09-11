@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		43A23A6526ED146A00EE5891 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A23A6426ED146A00EE5891 /* AppCenter-Config.plist */; };
 		53D67728535B474CA4C8607B /* libPods-reactnativebaseproject-reactnativebaseprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0959430B424924F33F6C290 /* libPods-reactnativebaseproject-reactnativebaseprojectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		DC056E1B100BCCF85C04E82F /* libPods-reactnativebaseproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6F0888EA4B0A34DFDDEB65 /* libPods-reactnativebaseproject.a */; };
@@ -36,6 +37,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativebaseproject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativebaseproject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativebaseproject/main.m; sourceTree = "<group>"; };
+		43A23A6426ED146A00EE5891 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "reactnativebaseproject/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		493F28CC9A2E94AF025C64FB /* Pods-reactnativebaseproject-reactnativebaseprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativebaseproject-reactnativebaseprojectTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativebaseproject-reactnativebaseprojectTests/Pods-reactnativebaseproject-reactnativebaseprojectTests.release.xcconfig"; sourceTree = "<group>"; };
 		554D9CC4083425BBDB1DE37D /* Pods-reactnativebaseproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativebaseproject.release.xcconfig"; path = "Target Support Files/Pods-reactnativebaseproject/Pods-reactnativebaseproject.release.xcconfig"; sourceTree = "<group>"; };
 		7EEBBE2BBB37578B86E26949 /* Pods-reactnativebaseproject-reactnativebaseprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativebaseproject-reactnativebaseprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativebaseproject-reactnativebaseprojectTests/Pods-reactnativebaseproject-reactnativebaseprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		13B07FAE1A68108700A75B9A /* reactnativebaseproject */ = {
 			isa = PBXGroup;
 			children = (
+				43A23A6426ED146A00EE5891 /* AppCenter-Config.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -114,7 +117,6 @@
 				7EEBBE2BBB37578B86E26949 /* Pods-reactnativebaseproject-reactnativebaseprojectTests.debug.xcconfig */,
 				493F28CC9A2E94AF025C64FB /* Pods-reactnativebaseproject-reactnativebaseprojectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				43A23A6526ED146A00EE5891 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
